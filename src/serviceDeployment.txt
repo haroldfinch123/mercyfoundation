@@ -1,0 +1,17 @@
+[Unit]
+Description=Project Mercy Designed and Developed by Abdul Gaffar
+After=syslog.target
+
+[Service]
+User=ubuntu
+ExecStart=/home/ubuntu/project/ProjectMercyBackend.jar
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
+cd /etc/systemd/system
+
+systemctl enable projectMercy
+systemctl start projectMercy
+systemctl stop projectMercy
+systemctl restart projectMercy

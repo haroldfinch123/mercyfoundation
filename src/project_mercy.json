@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Abdul Gaffar",
+      "contactNumber": "8186948065",
+      "emailId": "abdulgaffar@gmail.com",
+      "userName": "abdulgaffar@mercy.com",
+      "password": "Abdul@123",
+      "lastLoggedIn": "December 28 at 2024 at 10:26 AM",
+      "role": "Software Engineer"
+    },
+    {
+      "fullName": "Anna Vargheese",
+      "contactNumber": "8186948065",
+      "emailId": "syedalluddin1298@gmail.com",
+      "userName": "annavargheese@mercy.com",
+      "password": "Anna@123",
+      "role": "Treasurer",
+      "id": 2,
+      "lastLoggedIn": "December 31 at 2024 at 12:43 PM"
+    }
+  ],
+  "accounts": [
+    {
+      "accountNumber": "50200099726643",
+      "bankName": "HDFC Bank Limited",
+      "accountName": "MERCY CHARITABLE & WELFARE SOCIETY ",
+      "ifscCode": "HDFC0000081",
+      "initialBalance": "17000",
+      "addedOn": "December 28 at 2024 at 4:18 PM",
+      "registeredBy": "abdulgaffar@mercy.com",
+      "lastUpdatedOn": "December 28 at 2024 at 4:18 PM",
+      "updatedBy": "abdulgaffar@mercy.com",
+      "currentBalance": "17000",
+      "uniqueId": "MCWTBNK-vNBfhq",
+      "id": 1
+    },
+    {
+      "accountNumber": "123456789",
+      "bankName": "State Bank of India",
+      "accountName": "Mercy Organization",
+      "ifscCode": "SBI12010",
+      "initialBalance": "15000",
+      "addedOn": "December 31 at 2024 at 12:46 PM",
+      "registeredBy": "annavargheese@mercy.com",
+      "lastUpdatedOn": "December 31 at 2024 at 12:46 PM",
+      "updatedBy": "annavargheese@mercy.com",
+      "currentBalance": "15000",
+      "uniqueId": "MCWTBNK-rRHxYh",
+      "id": 2
+    }
+  ],
+  "donors": [
+    {
+      "memberName": "Hafiz Abdul Sattar",
+      "contactNumber": "8186948065",
+      "gender": "Male",
+      "emailId": "abdulsattar@gmail.com",
+      "address": "Owaisi Nagar Bhainsa",
+      "donationsCount": 0,
+      "totalDonations": 0,
+      "uniqueMemberId": "VOL-biApKh",
+      "registeredDate": "December 29 at 2024 at 1:24 PM",
+      "id": 3
+    },
+    {
+      "memberName": "Syed Allauddin",
+      "contactNumber": "7382701298",
+      "gender": "Male",
+      "emailId": "syedalluddin1298@gmail.com",
+      "address": "Glenfield Nampally Hyderabad",
+      "donationsCount": 0,
+      "totalDonations": 0,
+      "uniqueMemberId": "VOL-pkcACO",
+      "registeredDate": "December 31 at 2024 at 12:48 PM",
+      "id": 4
+    }
+  ],
+  "donations": [
+    {
+      "donorName": "Abdul Nadeem",
+      "donorContactNumber": "8186948066",
+      "donationDate": "December 29 at 2024 at 12:49 PM",
+      "donationAmount": 500,
+      "uniqueDonationId": "DONATION-UbEfWx",
+      "accountNumber": "",
+      "transactionID": "XXXX",
+      "paymentMode": "Cash",
+      "collectedBy": "annavargheese@mercy.com",
+      "date": "29-12-2024",
+      "id": 1
+    },
+    {
+      "donorName": "Abdul Samad",
+      "donorContactNumber": "8186948064",
+      "donationDate": "December 29 at 2024 at 12:49 PM",
+      "donationAmount": 100,
+      "uniqueDonationId": "DONATION-Ho86hf",
+      "accountNumber": "",
+      "transactionID": "XXXX",
+      "paymentMode": "Cash",
+      "collectedBy": "annavargheese@mercy.com",
+      "date": "29-12-2024",
+      "id": 2
+    },
+    {
+      "donorName": "Salima Begum",
+      "donorContactNumber": "8186948062",
+      "donationDate": "December 29 at 2024 at 1:09 PM",
+      "donationAmount": 500,
+      "uniqueDonationId": "DONATION-rFN8lb",
+      "accountNumber": "",
+      "transactionID": "XXXX",
+      "paymentMode": "Cash",
+      "collectedBy": "annavargheese@mercy.com",
+      "date": "29-12-2024",
+      "id": 3
+    },
+    {
+      "donorName": "Hafiz Abdul Sattar",
+      "donorContactNumber": "8186948065",
+      "donationDate": "December 29 at 2024 at 1:24 PM",
+      "donationAmount": 300,
+      "uniqueDonationId": "DONATION-9TSN2Z",
+      "accountNumber": "",
+      "transactionID": "XXXX",
+      "paymentMode": "Cash",
+      "collectedBy": "annavargheese@mercy.com",
+      "date": "29-12-2024",
+      "id": 4
+    },
+    {
+      "donorName": "Hafiz Abdul Sattar",
+      "donorContactNumber": "8186948065",
+      "donationDate": "December 29 at 2024 at 1:45 PM",
+      "donationAmount": 300,
+      "uniqueDonationId": "DONATION-XbgpZ4",
+      "accountNumber": "",
+      "transactionID": "XXXX",
+      "paymentMode": "Cash",
+      "collectedBy": "annavargheese@mercy.com",
+      "date": "29-12-2024",
+      "id": 5
+    },
+    {
+      "donorName": "Syed Allauddin",
+      "donorContactNumber": "7382701298",
+      "donationDate": "December 31 at 2024 at 12:51 PM",
+      "donationAmount": 1000,
+      "uniqueDonationId": "DONATION-Xt698P",
+      "accountNumber": "",
+      "transactionID": "XXXX",
+      "paymentMode": "Cash",
+      "collectedBy": "annavargheese@mercy.com",
+      "date": "31-12-2024",
+      "id": 6
+    },
+    {
+      "donorName": "Syed Allauddin",
+      "donorContactNumber": "7382701298",
+      "donationDate": "December 31 at 2024 at 12:53 PM",
+      "donationAmount": 1500,
+      "uniqueDonationId": "DONATION-mrqumb",
+      "accountNumber": "",
+      "transactionID": "XXXX",
+      "paymentMode": "Cash",
+      "collectedBy": "annavargheese@mercy.com",
+      "date": "31-12-2024",
+      "id": 7
+    }
+  ],
+  "expenses": [
+    {
+      "date": "31-12-2024",
+      "expenseFor": "Bill Book Printing Payment",
+      "spendAmount": 1000,
+      "paymentMode": "Cash",
+      "description": "Amount of 1000 have been paid for the bill books printing.",
+      "expenseId": "EXP-88UR50",
+      "recordedOn": "December 31 at 2024 at 1:09 PM",
+      "registeredBy": "annavargheese@mercy.com",
+      "id": 1
+    }
+  ],
+  "requests": [
+    {
+      "date": "31-12-2024",
+      "requestId": "REQ-wT4nL",
+      "requestDate": "December 31 at 2024 at 1:12 PM",
+      "applicantName": "Shaik Abrar",
+      "contactNumber": 8186948065,
+      "address": "Malakpet Hyderabad",
+      "emailId": "",
+      "requestedAmount": 15000,
+      "applicationStatus": "Pending",
+      "description": "For paying the hospital bill.",
+      "aadharCardNumber": 445886644685,
+      "registeredBy": "annavargheese@mercy.com",
+      "remarks": "",
+      "id": 1
+    }
+  ],
+  "availableFunds": [
+    {
+      "id": 1,
+      "fundInBanks": 32000,
+      "fundsInCash": 8050,
+      "lastUpdatedAt": "December 31 at 2024 at 1:09 PM",
+      "lastUpdateBy": "annavargheese@mercy.com"
+    }
+  ],
+  "accountTransactions": [
+    {
+      "transactionMessage": "New Account 50200099726643 have been added with initial Balance of 17000 by abdulgaffar@mercy.com",
+      "transactionTime": "December 28 at 2024 at 4:18 PM",
+      "userName": "abdulgaffar@mercy.com",
+      "id": 1
+    },
+    {
+      "transactionMessage": "Received Donation of Amount 500 from Abdul Nadeem at December 29 at 2024 at 12:49 PM. Collected By annavargheese@mercy.com.",
+      "transactionTime": "December 29 at 2024 at 12:49 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 2
+    },
+    {
+      "transactionMessage": "Received Donation of Amount 100 from Abdul Samad at December 29 at 2024 at 12:49 PM. Collected By annavargheese@mercy.com.",
+      "transactionTime": "December 29 at 2024 at 12:49 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 3
+    },
+    {
+      "transactionMessage": "Expense of 100 for Test expense registered at December 29 at 2024 at 12:50 PM. Registered By annavargheese@mercy.com.",
+      "transactionTime": "December 29 at 2024 at 12:50 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 4
+    },
+    {
+      "transactionMessage": "Received Donation of Amount 500 from Salima Begum at December 29 at 2024 at 1:09 PM. Collected By annavargheese@mercy.com.",
+      "transactionTime": "December 29 at 2024 at 1:09 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 5
+    },
+    {
+      "transactionMessage": "Expense of 50 for Test expense2 registered at December 29 at 2024 at 1:10 PM. Registered By annavargheese@mercy.com.",
+      "transactionTime": "December 29 at 2024 at 1:10 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 6
+    },
+    {
+      "transactionMessage": "Received Donation of Amount 300 from Hafiz Abdul Sattar at December 29 at 2024 at 1:24 PM. Collected By annavargheese@mercy.com.",
+      "transactionTime": "December 29 at 2024 at 1:24 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 7
+    },
+    {
+      "transactionMessage": "Received Donation of Amount 300 from Hafiz Abdul Sattar at December 29 at 2024 at 1:45 PM. Collected By annavargheese@mercy.com.",
+      "transactionTime": "December 29 at 2024 at 1:45 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 8
+    },
+    {
+      "transactionMessage": "New Account 123456789 have been added with initial Balance of 15000 by annavargheese@mercy.com",
+      "transactionTime": "December 31 at 2024 at 12:46 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 9
+    },
+    {
+      "transactionMessage": "Received Donation of Amount 1000 from Syed Allauddin at December 31 at 2024 at 12:51 PM. Collected By annavargheese@mercy.com.",
+      "transactionTime": "December 31 at 2024 at 12:51 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 10
+    },
+    {
+      "transactionMessage": "Received Donation of Amount 1500 from Syed Allauddin at December 31 at 2024 at 12:53 PM. Collected By annavargheese@mercy.com.",
+      "transactionTime": "December 31 at 2024 at 12:53 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 11
+    },
+    {
+      "transactionMessage": "Expense of 1000 for Bill Book Printing Payment registered at December 31 at 2024 at 1:09 PM. Registered By annavargheese@mercy.com.",
+      "transactionTime": "December 31 at 2024 at 1:09 PM",
+      "userName": "annavargheese@mercy.com",
+      "id": 12
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+.dropdown-menu {
+    background-color: #fff !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  .f18 {
+    font-size: 18px;
+  }
+
+  .f23 {
+    font-size: 23px;
+  }
+  body, html {
+    font-size: 16px; 
+  }
+  .monkeyContainer{
+	/* background:url("../public/main_page/assets/img/gallery/screen2.jpg") ; */
+	background-size: 100%;
+}

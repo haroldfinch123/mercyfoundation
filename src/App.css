@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.single-cat {
+height: 600px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
