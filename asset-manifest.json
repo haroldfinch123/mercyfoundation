@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mercyfoundation/static/css/main.e92f10dc.chunk.css",
+    "main.js": "/mercyfoundation/static/js/main.f38b8d17.chunk.js",
+    "main.js.map": "/mercyfoundation/static/js/main.f38b8d17.chunk.js.map",
+    "runtime-main.js": "/mercyfoundation/static/js/runtime-main.2c727ea0.js",
+    "runtime-main.js.map": "/mercyfoundation/static/js/runtime-main.2c727ea0.js.map",
+    "static/js/2.e06e3f26.chunk.js": "/mercyfoundation/static/js/2.e06e3f26.chunk.js",
+    "static/js/2.e06e3f26.chunk.js.map": "/mercyfoundation/static/js/2.e06e3f26.chunk.js.map",
+    "static/js/3.a9d4af82.chunk.js": "/mercyfoundation/static/js/3.a9d4af82.chunk.js",
+    "static/js/3.a9d4af82.chunk.js.map": "/mercyfoundation/static/js/3.a9d4af82.chunk.js.map",
+    "index.html": "/mercyfoundation/index.html",
+    "precache-manifest.a0d69dff63d90536cd4f9348807d3ebc.js": "/mercyfoundation/precache-manifest.a0d69dff63d90536cd4f9348807d3ebc.js",
+    "service-worker.js": "/mercyfoundation/service-worker.js",
+    "static/css/main.e92f10dc.chunk.css.map": "/mercyfoundation/static/css/main.e92f10dc.chunk.css.map",
+    "static/js/2.e06e3f26.chunk.js.LICENSE.txt": "/mercyfoundation/static/js/2.e06e3f26.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c727ea0.js",
+    "static/js/2.e06e3f26.chunk.js",
+    "static/css/main.e92f10dc.chunk.css",
+    "static/js/main.f38b8d17.chunk.js"
+  ]
+}
