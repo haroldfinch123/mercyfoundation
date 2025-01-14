@@ -1,8 +1,18 @@
 import { myPrivateAxios } from "./helper";
 
+
+export const reigsterUser = (userInfo) =>{
+    return myPrivateAxios.post(`/create`,userInfo).then(resp => resp);
+}
+
+export const fetchAuthorizedUsersInfo = () =>{
+    return myPrivateAxios.get(`/fetch/all/users/info`).then(resp => resp);
+}
+
 export const loginAsAdmin = (userCredentials) =>{
     return myPrivateAxios.post(`/generate-token`,userCredentials).then(resp => resp);
 }
+//
 
 export const updateLastLoginTime = (userName) => {
     return myPrivateAxios.put(`/update/login_time/${userName}`).then(resp => resp);

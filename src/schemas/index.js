@@ -1,5 +1,16 @@
 import * as Yup from "yup";
 
+
+export const NewUserRegSchema = Yup.object({
+    firstName :  Yup.string().required("Please enter First Name .."),
+    lastName :  Yup.string().required("Please enter Last Name .."),
+    contactNumber :  Yup.string().required("Please enter Contact Number ..").length(10),
+    email :  Yup.string().required("Please enter Email ID .."),
+    city :  Yup.string().required("Please enter City .."),
+    about :  Yup.string().required("Please enter Role..")
+})
+
+
 export const AddNewBankSchema = Yup.object({
     accountNumber :  Yup.number().required("Please enter Account Number .."),
     bankName :  Yup.string().required("Please Select Bank Name .."),

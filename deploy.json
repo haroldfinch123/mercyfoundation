@@ -1,0 +1,4 @@
+"homepage": "https://haroldfinch123.github.io/mercyfoundation",
+,
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"

@@ -65,17 +65,31 @@ function AdminSidebar() {
                     </li> */}
                     <li className="nav-item">
                         <a className="nav-link" data-bs-toggle="collapse" href="#bank-pages" aria-expanded="false" aria-controls="bank-pages">
-                            <span className="menu-title " style={{ fontSize: "18px" }}>Bank Accounts</span>
-                            <i className="menu-arrow" />
-                            <i className="mdi mdi-bank" />
+                            <span className="menu-title " style={{ fontSize: "18px" }}>Users</span>
+                            <i className="menu-person" />
+                            <i className="mdi mdi-person" />
                         </a>
                         <div className="collapse" id="bank-pages">
+                            <ul className="nav flex-column sub-menu">
+                                <li className="nav-item"> <NavLink className="nav-link f18" to={"/register-user"}> Register User </NavLink></li>
+                                <li className="nav-item"> <NavLink className="nav-link" to={"/view-authorized-users"}> View Users </NavLink></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" data-bs-toggle="collapse" href="#user-pages" aria-expanded="false" aria-controls="user-pages">
+                            <span className="menu-title " style={{ fontSize: "18px" }}>Bank Accounts</span>
+                            <i className="menu-arrow" />
+                            <i className="mdi mdi-person" />
+                        </a>
+                        <div className="collapse" id="user-pages">
                             <ul className="nav flex-column sub-menu">
                                 <li className="nav-item"> <NavLink className="nav-link f18" to={"/add-account-info"}> Add Account Info </NavLink></li>
                                 <li className="nav-item"> <NavLink className="nav-link" to={"/view-accounts-info"}> View Accounts </NavLink></li>
                             </ul>
                         </div>
                     </li>
+                    
                     <li className="nav-item">
                         <a className="nav-link" data-bs-toggle="collapse" href="#volunteers-pages" aria-expanded="false" aria-controls="volunteers-pages">
                             <span className="menu-title " style={{ fontSize: "18px" }}>Mercy Donors</span>

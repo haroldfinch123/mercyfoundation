@@ -19,19 +19,12 @@ import ViewExpensesReport from './components/admin_components/ViewExpensesReport
 import RegisterRequestForHelp from './components/admin_components/RegisterRequestForHelp';
 import ViewRegisteredRequests from './components/admin_components/ViewRegisteredRequests';
 import AdminHeader from './components/admin_components/AdminHeader';
+import RegisterNewUser from './components/admin_components/RegisterNewUser';
+import ViewMercyAuthorizedUsers from './components/admin_components/ViewMercyAuthorizedUsers';
 
 function App() {
   return (
-    
-    <>
-    
-    { 
-    // <div>Test Something</div>
-      /* Based on flag show the UI Pages.  */
-      //remove the
-     // <AdminHeader  />
-    }
-    
+  
    <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainPage /> } />
@@ -42,6 +35,8 @@ function App() {
         <Route path='/donate' element={<DonateComponent /> } />
         <Route path='/contact' element={<ContactUs /> } />
         <Route path='/dashboard' element={<Dashboard /> } />
+        <Route path='/register-user' element={<RegisterNewUser /> } />
+        <Route path='/view-authorized-users' element={<ViewMercyAuthorizedUsers /> } />
         <Route path='/blank' element={<BlankPage /> } />
         <Route path='/add-account-info' element={<AddBankAccountInfo /> } />
         <Route path='/view-accounts-info' element={<ViewBankAccountsInfo /> } />
@@ -53,9 +48,12 @@ function App() {
         <Route path='/view-expenses-report' element={<ViewExpensesReport /> } />
         <Route path='/register-request' element={<RegisterRequestForHelp /> } />
         <Route path='/view-requests' element={<ViewRegisteredRequests /> } />
+        
+
+        
       </Routes>
    </BrowserRouter>
-   </>
+   
   );
 }
 
