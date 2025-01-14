@@ -24,12 +24,14 @@ function App() {
   return (
     
     <>
-    <div>Test Something</div>
+    
     { 
+    // <div>Test Something</div>
       /* Based on flag show the UI Pages.  */
       //remove the
+     // <AdminHeader  />
     }
-    <AdminHeader  />
+    
    <BrowserRouter>
       <Routes>
         <Route path='/' element={<MainPage /> } />
